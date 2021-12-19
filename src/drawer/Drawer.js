@@ -1,4 +1,3 @@
-import react from "react";
 import "./Drawer.css";
 const DRawer = (props) => {
   const { isEditable, closeModal, children } = props;
@@ -8,7 +7,11 @@ const DRawer = (props) => {
         <div className={isEditable ? "container translate-0" : "container"}>
           <div className="sub-container">
             <div className="close" onClick={closeModal}>
-              <div>close</div>
+              <img
+                src="https://thumbs.dreamstime.com/z/close-icon-135858264.jpg"
+                alt=""
+                className="iconClass"
+              />
             </div>
             {children}
           </div>

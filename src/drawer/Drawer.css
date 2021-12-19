@@ -2,7 +2,6 @@
   position: fixed;
   top: 0;
   right: 0;
-  /* overflow: hidden; */
 }
 
 .wrapper {
@@ -29,12 +28,9 @@
   background-color: #12344d;
   position: fixed;
   top: 0px;
-  left: 150px;
+  left: 167px;
   border-radius: 0 0 0 4px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 10;
 }
 
@@ -47,4 +43,8 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
+}
+.iconClass {
+  width: 20px;
+  height: 20px;
 }
